@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  box-sizing: border-box;
+  background-color: #FFFAF0;
+}
+
+input {
+  width: 90%;
+  height: 61px;
+  font-size: 1.4rem;
+  border: 1px solid gray;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  margin: 0.7rem;
+  font-size: 1.2em;
+  border: none;
+  margin-top: 10px;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  box-sizing: border-box;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.add-btn {
+  background: #027EFE;
+}
+
+.delete-btn {
+  background: #FF6347;
+}
+
+.complete-btn {
+  background: #00693E;
+}
+
+li:last-child {
+  border-bottom: 1px solid gray;
+}
